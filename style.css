@@ -7,7 +7,5 @@ table {
     border: 1px solid black;
 }
 td {
-    display:flex;
-    margin:auto;
-    max-width: 50%;
+    border: 1px solid black;
 }
