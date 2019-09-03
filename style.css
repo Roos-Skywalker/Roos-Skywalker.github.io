@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 body {
     color:black;
     font-family: 'Verdana', 'Arial';
@@ -49,4 +55,15 @@ nav {
 }
 div {
     padding:20px;margin-top:30px;
+}
+.box {
+  /* border: 5px solid rebeccapurple; */
+  background-color: lightgray;
+  /* padding: 40px;
+  margin: 40px; */
+  width: 600px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
