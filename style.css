@@ -134,10 +134,10 @@ div {
   }
 }
 h1 {
-  font-family: cyberspaceregular;
+  font-family: 'cyberspaceregular', 'unispacebold', 'Unispace';
 }
 h2 {
-  font-family: chintzy_cpu_brkregular;
+  font-family: 'chintzy_cpu_brkregular', 'unispacebold', 'Unispace';
 }
 @font-face {
   font-family: 'cyberspaceregular';
