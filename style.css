@@ -1,5 +1,5 @@
 body {
-    color: white;
+    color: black;
     font-family: 'unispacebold', 'Unispace', 'Share Tech Mono';
     margin:0;
     background-image: url("/img/background.gif")
@@ -58,7 +58,7 @@ div {
     padding:20px;margin-top:30px;
     display: inline-block;
 }
-.indexdiv {
+.centertext {
   text-align: center;
 }
 .constructionbg {
@@ -69,7 +69,7 @@ div {
 .constructionbutton {
   background: #FEDE00;
   display: inline-block;
-  border-color: #000000
+  border-color: #000000;
   border-width: 5px;
   border-style: solid;
   max-width: 150px;
