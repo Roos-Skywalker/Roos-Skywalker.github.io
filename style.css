@@ -67,9 +67,18 @@ div {
   margin-right: auto;
   width: 50%;
 }
-.alignright {
-  float: right;
+.alignRight {
+  float: inline-end;
   display: inline-block;
+}
+.alignLeft{
+  float: inline-start;
+  display: inline-block;
+}
+.mobileImage {
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 2%
 }
 .constructionbg {
   background-color: #F6F6F6;
