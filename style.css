@@ -68,11 +68,11 @@ div {
   width: 50%;
 }
 .alignRight {
-  float: inline-end;
+  float: right;
   display: inline-block;
 }
 .alignLeft{
-  float: inline-start;
+  float: left;
   display: inline-block;
 }
 .mobileImage {
