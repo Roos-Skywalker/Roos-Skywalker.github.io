@@ -1,185 +1,185 @@
 /*Global overrides*/
-body {
-    color: black;
-    font-family: 'unispacebold', 'Unispace', 'Share Tech Mono';
-    margin:0;
-    background-image: url("/img/background.gif")
-}
-table {
-    border: 1px solid black;
-    background-color: rgba(133, 133, 133, 0.5)
-}
-td {
-    border: 1px solid black;
-}
-main {
-  display: block;
-  background-color: rgba(133, 133, 133, 0.5);
-  padding: 100px;
-  margin: 100px 100px 0px 100px;
-  border-style: hidden;
-  border-width: 100px;
-}
-span {
-  display: block;
-  background-color: rgba(133, 133, 133, 0.5);
-  padding: 100px;
-  margin: 10px 0px 10px 0px;
-  border-style: hidden;
-  border-width: 100px;
-  border-radius: 2%
-}
-div {
-    padding:20px;margin-top:30px;
-    display: inline-block;
-}
-h1 {
-  font-family: 'cyberspaceregular', 'unispacebold', 'Unispace';
-}
-h2 {
-  font-family: 'chintzy_cpu_brkregular', 'unispacebold', 'Unispace';
-}
+    body {
+        color: black;
+        font-family: 'unispacebold', 'Unispace', 'Share Tech Mono';
+        margin:0;
+        background-image: url("/img/background.gif")
+    }
+    table {
+        border: 1px solid black;
+        background-color: rgba(133, 133, 133, 0.5)
+    }
+    td {
+        border: 1px solid black;
+    }
+    main {
+      display: block;
+      background-color: rgba(133, 133, 133, 0.5);
+      padding: 100px;
+      margin: 100px 100px 0px 100px;
+      border-style: hidden;
+      border-width: 100px;
+    }
+    span {
+      display: block;
+      background-color: rgba(133, 133, 133, 0.5);
+      padding: 100px;
+      margin: 10px 0px 10px 0px;
+      border-style: hidden;
+      border-width: 100px;
+      border-radius: 2%
+    }
+    div {
+        padding:20px;margin-top:30px;
+        display: inline-block;
+    }
+    h1 {
+      font-family: 'cyberspaceregular', 'unispacebold', 'Unispace';
+    }
+    h2 {
+      font-family: 'chintzy_cpu_brkregular', 'unispacebold', 'Unispace';
+    }
 /*Global*/
-@font-face {
-  font-family: 'cyberspaceregular';
-  src: url('/cyberfont/cyberspace.woff2') format('woff2'),
-       url('/cyberfont/cyberspace.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'chintzy_cpu_brkregular';
-  src: url('/cpufont/chintzy.woff2') format('woff2'),
-       url('/cpufont/chintzy.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'unispacebold';
-  src: url('/unispacefont/unispace_bd.woff2') format('woff2'),
-       url('/unispacefont/unispace_bd.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-#navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  top: 0;
-  width: 100%;
-  background-color: rgba(133, 133, 133, 0.5)
-}
-.nav {
-  float: right;
-}
-.nav a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.nav a:hover:not(.active) {
-  background-color: #494949;
-}
-.active {
-  background-color: #4593CC;
-}
+    @font-face {
+      font-family: 'cyberspaceregular';
+      src: url('/cyberfont/cyberspace.woff2') format('woff2'),
+           url('/cyberfont/cyberspace.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'chintzy_cpu_brkregular';
+      src: url('/cpufont/chintzy.woff2') format('woff2'),
+           url('/cpufont/chintzy.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'unispacebold';
+      src: url('/unispacefont/unispace_bd.woff2') format('woff2'),
+           url('/unispacefont/unispace_bd.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+    #navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: auto;
+      background-color: rgb(0, 0, 0);
+      top: 0;
+      width: 100%;
+      background-color: rgba(133, 133, 133, 0.5)
+    }
+    .nav {
+      float: right;
+    }
+    .nav a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .nav a:hover:not(.active) {
+      background-color: #494949;
+    }
+    .active {
+      background-color: #4593CC;
+    }
 /*Universal properties*/
-.centertext {
-  text-align: center;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-.alignRight {
-  float: right;
-  display: inline-block;
-}
-.alignLeft{
-  float: left;
-  display: inline-block;
-}
-.mobileImage {
-  max-width: 500px;
-  max-height: 500px;
-  border-radius: 2%
-}
+    .centertext {
+      text-align: center;
+    }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    .alignRight {
+      float: right;
+      display: inline-block;
+    }
+    .alignLeft{
+      float: left;
+      display: inline-block;
+    }
+    .mobileImage {
+      max-width: 500px;
+      max-height: 500px;
+      border-radius: 2%
+    }
 /*Construction page*/
-.constructionbg {
-  background-color: #F6F6F6;
-  display: block;
-  text-align: center;
-}
-.constructionbutton {
-  background: #FEDE00;
-  display: inline-block;
-  border-color: #000000;
-  border-width: 5px;
-  border-style: solid;
-  max-width: 150px;
-  width: 100%;
-  font-size: 20px;
-  padding: 10px;
-  border-radius: 10px;
-  margin-bottom: 5px;
-  color: black;
-}
+    .constructionbg {
+      background-color: #F6F6F6;
+      display: block;
+      text-align: center;
+    }
+    .constructionbutton {
+      background: #FEDE00;
+      display: inline-block;
+      border-color: #000000;
+      border-width: 5px;
+      border-style: solid;
+      max-width: 150px;
+      width: 100%;
+      font-size: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 5px;
+      color: black;
+    }
 /*Dashboard page*/
-#studiewijzer {
-  list-style-type: none;
-}
-#studie {
-  box-sizing: border-box;
-  width: 300px;
-  background-color: #494949;
-  border: 1px solid black;
-  border-left-style: hidden;
-  border-right-style: hidden;
-  padding: 10px;
-}
-#studie a {
-  display: block;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-#studie a:hover:not(.active) {
-  text-shadow: 2px 2px 2px #CECECE;
+    #studiewijzer {
+      list-style-type: none;
+    }
+    #studie {
+      box-sizing: border-box;
+      width: 300px;
+      background-color: #494949;
+      border: 1px solid black;
+      border-left-style: hidden;
+      border-right-style: hidden;
+      padding: 10px;
+    }
+    #studie a {
+      display: block;
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    #studie a:hover:not(.active) {
+      text-shadow: 2px 2px 2px #CECECE;
 }
 /*Index*/
-.slidein {
-  animation: slidein 2s 1
-}
-@keyframes slidein {
-  from {
-    margin-left:100%;
-    width:300%
-  }
-  
-  to {
-    margin-left:0%;
-    width:100%;
-  }
-}
-.appear {
-  animation: appear 3s 1
-}
-@keyframes appear {
-  from {
-    opacity: 0
-  }
+    .slidein {
+      animation: slidein 2s 1
+    }
+    @keyframes slidein {
+      from {
+        margin-left:100%;
+        width:300%
+      }
 
-  to {
-    opacity: 1
-  }
-}
+      to {
+        margin-left:0%;
+        width:100%;
+      }
+    }
+    .appear {
+      animation: appear 3s 1
+    }
+    @keyframes appear {
+      from {
+        opacity: 0
+      }
+
+      to {
+        opacity: 1
+      }
+    }
 /*Easter eggs*/
-#loek:hover {
-  background-image: url("/img/Loek1.png")
-}
+    #loek:hover {
+      background-image: url("/img/Loek1.png")
+    }
