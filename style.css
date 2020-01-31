@@ -1,3 +1,4 @@
+/*Global overrides*/
 body {
     color: black;
     font-family: 'unispacebold', 'Unispace', 'Share Tech Mono';
@@ -28,6 +29,38 @@ span {
   border-width: 100px;
   border-radius: 2%
 }
+div {
+    padding:20px;margin-top:30px;
+    display: inline-block;
+}
+h1 {
+  font-family: 'cyberspaceregular', 'unispacebold', 'Unispace';
+}
+h2 {
+  font-family: 'chintzy_cpu_brkregular', 'unispacebold', 'Unispace';
+}
+/*Global*/
+@font-face {
+  font-family: 'cyberspaceregular';
+  src: url('/cyberfont/cyberspace.woff2') format('woff2'),
+       url('/cyberfont/cyberspace.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'chintzy_cpu_brkregular';
+  src: url('/cpufont/chintzy.woff2') format('woff2'),
+       url('/cpufont/chintzy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unispacebold';
+  src: url('/unispacefont/unispace_bd.woff2') format('woff2'),
+       url('/unispacefont/unispace_bd.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 #navbar {
   list-style-type: none;
   margin: 0;
@@ -38,26 +71,23 @@ span {
   width: 100%;
   background-color: rgba(133, 133, 133, 0.5)
 }
-#nav {
+.nav {
   float: right;
 }
-#nav a {
+.nav a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-#nav a:hover:not(.active) {
+.nav a:hover:not(.active) {
   background-color: #494949;
 }
 .active {
   background-color: #4593CC;
 }
-div {
-    padding:20px;margin-top:30px;
-    display: inline-block;
-}
+/*Universal properties*/
 .centertext {
   text-align: center;
 }
@@ -80,6 +110,7 @@ div {
   max-height: 500px;
   border-radius: 2%
 }
+/*Construction page*/
 .constructionbg {
   background-color: #F6F6F6;
   display: block;
@@ -99,6 +130,7 @@ div {
   margin-bottom: 5px;
   color: black;
 }
+/*Dashboard page*/
 #studiewijzer {
   list-style-type: none;
 }
@@ -120,6 +152,7 @@ div {
 #studie a:hover:not(.active) {
   text-shadow: 2px 2px 2px #CECECE;
 }
+/*Index*/
 .slidein {
   animation: slidein 2s 1
 }
@@ -146,33 +179,7 @@ div {
     opacity: 1
   }
 }
+/*Easter eggs*/
 #loek:hover {
   background-image: url("/img/Loek1.png")
-}
-h1 {
-  font-family: 'cyberspaceregular', 'unispacebold', 'Unispace';
-}
-h2 {
-  font-family: 'chintzy_cpu_brkregular', 'unispacebold', 'Unispace';
-}
-@font-face {
-  font-family: 'cyberspaceregular';
-  src: url('/cyberfont/cyberspace.woff2') format('woff2'),
-       url('/cyberfont/cyberspace.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'chintzy_cpu_brkregular';
-  src: url('/cpufont/chintzy.woff2') format('woff2'),
-       url('/cpufont/chintzy.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'unispacebold';
-  src: url('/unispacefont/unispace_bd.woff2') format('woff2'),
-       url('/unispacefont/unispace_bd.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
 }
